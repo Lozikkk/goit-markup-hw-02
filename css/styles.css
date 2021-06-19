@@ -3,6 +3,7 @@
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
+  --portfolio-btn: #f5f4fa;
 }
 
 /*-------------------End Variables----------------*/
@@ -23,8 +24,9 @@
 }
 .logo {
   font-family: var(--secondary-font);
+  font-style: normal;
   font-weight: 700;
-  font-size: 26 px;
+  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 
@@ -32,8 +34,9 @@
 }
 .logo-type {
   font-family: var(--secondary-font);
+  font-style: normal;
   font-weight: 700;
-  font-size: 26 px;
+  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 
@@ -193,6 +196,8 @@ body {
 .contacts {
 }
 .logo-footer {
+  font-family: var(--secondary-font);
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -201,6 +206,8 @@ body {
   color: #ffffff;
 }
 .logo-type-footer {
+  font-family: var(--secondary-font);
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -246,3 +253,26 @@ body {
   color: #ffffff;
 }
 /*------------------End Footer--------------------*/
+
+/*-----------------Portfolio----------------------*/
+.portfolio-btn {
+  background: var(--portfolio-btn);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.portfolio-btn.curent {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/*-----------------End Portfolio Main-----------------*/
