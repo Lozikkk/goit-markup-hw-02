@@ -1,0 +1,64 @@
+/*---------------------Style Header---------------*/
+
+.logo {
+  font-family: 'Raleway', ' Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.logo-type {
+  font-family: 'Raleway', 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.menu-link {
+  font-family: 'Roboto', 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}
+.contacts-mail {
+  font-family: 'Roboto', 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contacts-mail:hover,
+.contacts-mail:focus {
+  color: #2196f3;
+}
+.contacts-phone-number {
+  font-family: 'Roboto', 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contacts-phone-number:hover,
+.contacts-phone-number:focus {
+  color: #2196f3;
+}
