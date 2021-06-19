@@ -1,8 +1,9 @@
+/*--------------------Variables--------------------*/
+
 /*---------------------Style Header---------------*/
 
 .logo {
   font-family: 'Raleway', ' Roboto' sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26 px;
   line-height: 1.19;
@@ -12,7 +13,6 @@
 }
 .logo-type {
   font-family: 'Raleway', 'Roboto' sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26 px;
   line-height: 1.19;
@@ -22,7 +22,6 @@
 }
 .menu-link {
   font-family: 'Roboto', 'Raleway' sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -34,9 +33,11 @@
 .menu-link:focus {
   color: #2196f3;
 }
+.menu-link.curent {
+  color: #2196f3;
+}
 .contacts-mail {
   font-family: 'Roboto', 'Raleway' sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -50,7 +51,6 @@
 }
 .contacts-phone-number {
   font-family: 'Roboto', 'Raleway' sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -62,3 +62,4 @@
 .contacts-phone-number:focus {
   color: #2196f3;
 }
+/*----------------Main--------------------*/
